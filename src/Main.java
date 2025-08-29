@@ -17,6 +17,5 @@ public class Main {
         System.out.println("A média dos numeros da lista é: " +
                 numbers.stream().mapToInt(Integer::intValue).average().orElse(0));
 
-        System.out.println("fera demais");
     }
 }
